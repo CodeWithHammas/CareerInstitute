@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background-color: #08174a;
+}
+h2 {
+  color: #08174a;
+  border-left: 8px solid #08174a;
+  padding-left: 8px;
+  font-weight: 700;
+}
+.nav-link {
+  transition: 0.3s;
+}
+.nav-link:hover {
+  opacity: 0.6;
+}
+.active {
+  text-decoration: underline;
+}
+.custom-bg {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.custom-section {
+  min-height: 550px;
+}
+.card {
+  min-height: 380px;
+}
+.card img {
+  max-width: 100%; object-fit: cover; aspect-ratio: 4/3;
+}
+footer {
+  background: rgba(0, 0, 0, 0.9);
+  margin: 0px;
+}
+
+footer a {
+  color: rgb(186, 186, 186);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: color 0.3s ease 0s;
+}
+
+footer a:hover {
+  color: #0a58ca;
+}
+
+footer h3 {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 3.04px;
+  text-transform: uppercase;
+}
