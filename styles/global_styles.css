@@ -65,3 +65,7 @@ footer h3 {
   letter-spacing: 3.04px;
   text-transform: uppercase;
 }
+
+#gallery img {
+  margin-bottom: 1rem;
+}
