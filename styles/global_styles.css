@@ -32,7 +32,9 @@ h2 {
   min-height: 380px;
 }
 .card img {
-  max-width: 100%; object-fit: cover; aspect-ratio: 4/3;
+  max-width: 100%;
+  object-fit: cover;
+  aspect-ratio: 4/3;
 }
 footer {
   background: rgba(0, 0, 0, 0.9);
@@ -68,4 +70,54 @@ footer h3 {
 
 #gallery img {
   margin-bottom: 1rem;
+}
+.testimonial-graphic {
+  width: 33%;
+  background-color: #08174a;
+  border-radius: 2rem;
+  margin:1rem ;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.testimonial-container {
+  width: 66%;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.testimonial {
+  /* border: 1px solid gray; */
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.25rem;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 1rem;
+}
+.testimonial-text {
+  color: rgba(0, 0, 0, 0.5);
+}
+.testimonial-heading {
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.testimonial-job {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+@media only screen and (max-width: 600px) {
+  .testimonial-graphic {
+    width: 100%;
+    margin: 0;
+  }
+  .testimonial-container {
+    width: 100%;
+  }
+  .testimonial {
+    width: 100%;
+  }
 }
