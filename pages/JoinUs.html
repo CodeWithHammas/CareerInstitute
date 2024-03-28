@@ -55,7 +55,7 @@
     <section class="container custom-section my-4">
       <h2>Admission Form</h2>
       <p>Fields marked with (<span class="text-danger">*</span>) are <span class="text-danger">required</span></p>
-      <form action="" method="post">
+      <form action="https://airform.io/" method="post">
         <!-- Basic Info -->
         <div class="row my-3">
           <div class="form-group col-md-6">
@@ -94,7 +94,7 @@
           </div>
           <div class="form-group col-md-6">
             <label for="self_contact">Father's Contact Number:</label>
-            <input class="form-control" type="number" placeholder="0123 4567890" name="self_contact" id="self_contact">
+            <input class="form-control" type="number" placeholder="0123 4567890" name="father_contact_num" id="self_contact">
           </div>
         </div>
 
@@ -102,7 +102,7 @@
         <div class="row my-3">
           <div class="form-group col-md-8">
             <label for="">Street:</label>
-            <input class="form-control" type="text" placeholder="Street Address" name="last_name" id="last_name">
+            <input class="form-control" type="text" placeholder="Street Address" name="Address" id="last_name">
           </div>
           <div class="form-group col-md-4">
             <label for="">City:</label>
@@ -158,9 +158,9 @@
         <button type="reset" class="btn btn-outline-secondary">Reset</button>
 
         <!-- Formsubmit Attributes -->
-        <input type="hidden" name="_next" value="http://localhost:5173/pages/thankYou.html">
+        <!-- <input type="hidden" name="_next" value="http://localhost:5173/pages/thankYou.html">
         <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_template" value="table"> -->
       </form>
     </section>
   </main>
