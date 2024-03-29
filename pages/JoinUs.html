@@ -19,7 +19,7 @@
 
   <nav class="navbar navbar-expand-lg d-lg-flex">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="../assets/logo 2.png.jpg" class="" style="height: 48px;"
+      <a class="navbar-brand" href="../index.html"><img src="../assets/logo 2.png.jpg" class="" style="height: 48px;"
           alt="brand logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,10 +84,10 @@
             <label for="self_contact">Contact Number (WhatsApp): <span class="text-danger">*</span></label>
             <input class="form-control" type="number" placeholder="0123 4567890" name="self_contact" id="self_contact" required>
           </div>
-          <div class="form-group col-md-6">
-            <label for="date_of_Admission">Date of Admission: <span class="text-danger">*</span></label>
-            <input class="form-control" type="date" name="date_of_Admission" id="date_of_Admission" required>
-          </div>
+        </div>
+        <div class="form-group my-3">
+          <label for="date_of_Admission">Date of Admission: <span class="text-danger">*</span></label>
+          <input class="form-control" type="date" name="date_of_Admission" id="date_of_Admission" required>
         </div>
 
         <!-- Family Info -->
@@ -119,17 +119,20 @@
           <label for="">Course Choice: <span class="text-danger">*</span></label>
           <div class="form-check">
             <input class="form-check-input" type="radio" name="course_choice" id="english_language" value="English Language" checked>
-            <label class="form-check-label" for="english_language">Only English Grammer</label>
+            <label class="form-check-label" for="english_language">Only English Grammar</label>
           </div>
           <div class="form-check">
             <input class="form-check-input" type="radio" name="course_choice" id="english_Speaking" value="English Speaking">
-            <label class="form-check-label" for="english_grammar">Only English Speaking</label>
+            <label class="form-check-label" for="english_Speaking">Only English Speaking</label>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="course_choice" id="english_grammar+Speaking" value="English Grammar+Speaking">
-            <label class="form-check-label" for="english_grammar">English Grammer+English Speaking</label>
+            <input class="form-check-input" type="radio" name="course_choice" id="english_grammar_speaking" value="English Grammar and Speaking">
+            <label class="form-check-label" for="english_grammar_speaking">English Grammar + English Speaking</label>
           </div>
-
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="course_choice" id="computer_coaching" value="Computer Coaching">
+            <label class="form-check-label" for="computer_coaching">Computer Coaching</label>
+          </div>
           <div class="form-check">
             <input class="form-check-input" type="radio" name="course_choice" id="9th_coaching" value="9th_coaching">
             <label class="form-check-label" for="9th_coaching">9th Coaching</label>
